@@ -8,6 +8,7 @@ Aplicação web de uma ONG fictícia (projeto didático) que apresenta seus proj
 - Navegação sem recarregar a página, por rotas com hash (`#/`, `#/projetos`, `#/cadastro`, `#/cadastros`).
 - Formulário com máscaras, validação de CPF e dados salvos no navegador (localStorage).
 - Gráfico de cadastros por tipo (doador/voluntário).
+- Modo escuro automático (preferência do sistema) com botão para alternar no rodapé; ajustes para `prefers-contrast: more`.
 
 ## Tecnologias
 
