@@ -53,12 +53,18 @@ npm run preview # serve dist/ em http://localhost:8080
 
 O build junta e minifica o JavaScript (esbuild), junta e minifica o CSS, minifica o HTML e otimiza os SVG (svgo). A pasta `dist/` não é versionada.
 
+## Deploy
+
+A publicação é automática no GitHub Pages: a cada push na `main`, o workflow `.github/workflows/deploy.yml` roda `npm ci` e `npm run build` e publica a pasta `dist/`.
+Configuração única no GitHub: Settings > Pages > Source > **GitHub Actions**.
+
 ## Estrutura de diretórios
 
 ```
 ong-semear-spa/
 ├── css/            reset.css e style.css (design system)
 ├── html/           index.html (shell da SPA)
+├── .github/workflows/  deploy.yml (CI/CD no GitHub Pages)
 ├── imagens/        ilustrações SVG
 ├── build.mjs       script de build (gera dist/)
 ├── package.json    scripts e dependências de desenvolvimento
