@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Computador com certificado">
+  <rect width="320" height="200" fill="#eaf6ee"/>
+  <rect x="80" y="40" width="160" height="100" rx="8" fill="#154f80"/>
+  <rect x="90" y="50" width="140" height="80" rx="4" fill="#ffffff"/>
+  <rect x="105" y="65" width="70" height="8" rx="4" fill="#1f6fb2"/>
+  <rect x="105" y="82" width="110" height="6" rx="3" fill="#c9dcea"/>
+  <rect x="105" y="96" width="90" height="6" rx="3" fill="#c9dcea"/>
+  <circle cx="200" cy="112" r="12" fill="#f5a623"/>
+  <rect x="130" y="140" width="60" height="10" fill="#c9dcea"/>
+  <rect x="105" y="150" width="110" height="10" rx="5" fill="#154f80"/>
+</svg>
