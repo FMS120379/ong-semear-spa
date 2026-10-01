@@ -34,8 +34,8 @@
           labels: ["Doadores", "Voluntários"],
           datasets: [{
             data: [doadores, voluntarios],
-            backgroundColor: [cor("--cor-secundaria"), cor("--cor-primaria")],
-            borderColor: cor("--cor-branca"),
+            backgroundColor: [cor("--cor-secundaria"), cor("--cor-destaque")],
+            borderColor: cor("--cor-superficie"),
             borderWidth: 2
           }]
         },
@@ -43,7 +43,7 @@
           responsive: true,
           maintainAspectRatio: false,
           animation: !window.matchMedia("(prefers-reduced-motion: reduce)").matches,
-          plugins: { legend: { position: "bottom", labels: { font: { size: 14 } } } }
+          plugins: { legend: { position: "bottom", labels: { font: { size: 14 }, color: cor("--cor-texto") } } }
         }
       });
     }
