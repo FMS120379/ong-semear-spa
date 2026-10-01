@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Voluntários preparando refeições">
+  <rect width="600" height="400" fill="#e8f3fb"/>
+  <rect y="290" width="600" height="110" fill="#c9dcea"/>
+  <rect x="120" y="230" width="360" height="30" rx="6" fill="#154f80"/>
+  <rect x="220" y="170" width="160" height="60" rx="10" fill="#1f6fb2"/>
+  <rect x="210" y="162" width="180" height="14" rx="7" fill="#154f80"/>
+  <circle cx="150" cy="150" r="28" fill="#f5a623"/><rect x="122" y="182" width="56" height="48" rx="14" fill="#f5a623"/>
+  <circle cx="450" cy="150" r="28" fill="#2e9e6b"/><rect x="422" y="182" width="56" height="48" rx="14" fill="#2e9e6b"/>
+  <path d="M270 140c-8-12 8-16 0-28M300 140c-8-12 8-16 0-28M330 140c-8-12 8-16 0-28" stroke="#f5a623" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

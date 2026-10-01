@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" role="img" aria-label="Livro aberto e lápis">
+  <rect width="320" height="200" fill="#fdf3e3"/>
+  <path d="M160 60v95c-25-14-60-14-90 0V50c30-12 65-10 90 10z" fill="#ffffff" stroke="#154f80" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M160 60v95c25-14 60-14 90 0V50c-30-12-65-10-90 10z" fill="#ffffff" stroke="#154f80" stroke-width="5" stroke-linejoin="round"/>
+  <rect x="235" y="110" width="12" height="70" rx="3" fill="#f5a623" transform="rotate(35 241 145)"/>
+  <polygon points="262,182 274,176 268,190" fill="#154f80"/>
+</svg>
