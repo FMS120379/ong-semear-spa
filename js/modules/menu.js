@@ -30,6 +30,15 @@
           botao.focus();
         }
       });
+      /* Skip link: numa SPA com rotas por hash, o href="#conteudo" trocaria a rota.
+         Por isso o foco é levado ao conteúdo sem alterar a URL. */
+      const pular = document.querySelector(".skip-link");
+      if (pular) {
+        pular.addEventListener("click", function (evento) {
+          evento.preventDefault();
+          document.getElementById("conteudo").focus();
+        });
+      }
       desktop.addEventListener("change", function (evento) {
         if (evento.matches) definir(false);
       });
