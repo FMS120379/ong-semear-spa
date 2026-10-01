@@ -1,0 +1,15 @@
+{
+  "name": "ong-semear-spa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SPA da ONG Semear (projeto didático)",
+  "scripts": {
+    "build": "node build.mjs",
+    "preview": "npx --yes http-server dist -p 8080"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "html-minifier-terser": "^7.2.0",
+    "svgo": "^3.3.2"
+  }
+}
