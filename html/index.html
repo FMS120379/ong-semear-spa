@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ONG Semear: educação e segurança alimentar. Conheça os projetos, doe ou seja voluntário.">
+  <title>ONG Semear | Educação e segurança alimentar</title>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <p class="logo">ONG <span>Semear</span></p>
+      <button type="button" class="menu-toggle" aria-expanded="false" aria-controls="menu-principal" aria-label="Abrir menu">
+        <span class="menu-toggle-barras" aria-hidden="true"></span>
+      </button>
+      <nav aria-label="Navegação principal">
+        <ul class="nav-list" id="menu-principal">
+          <li><a href="#/" data-rota="">Início</a></li>
+          <li class="has-submenu">
+            <a href="#/projetos" data-rota="projetos">Projetos</a>
+            <ul class="submenu">
+              <li><a href="#/projetos/cozinha">Cozinha solidária</a></li>
+              <li><a href="#/projetos/reforco">Reforço escolar</a></li>
+              <li><a href="#/projetos/capacitacao">Capacitação profissional</a></li>
+            </ul>
+          </li>
+          <li><a href="#/cadastro" data-rota="cadastro">Cadastro</a></li>
+          <li><a href="#/cadastros" data-rota="cadastros">Cadastros salvos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- O roteador (js/modules/router.js) troca o conteúdo de #app -->
+  <main id="conteudo" tabindex="-1">
+    <div id="app" class="view">
+      <h1>ONG Semear</h1>
+      <p>Carregando conteúdo…</p>
+      <noscript><p>Este site precisa de JavaScript para exibir o conteúdo. Ative o JavaScript no navegador.</p></noscript>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <address>
+        ONG Semear · Rua da Esperança, 123 · São Paulo, SP<br>
+        <a href="mailto:contato@ongsemear.example">contato@ongsemear.example</a>
+      </address>
+      <p><small>&copy; 2026 ONG Semear. Projeto fictício para fins didáticos.</small></p>
+    </div>
+  </footer>
+
+  <dialog class="modal" id="modal-sucesso" aria-labelledby="modal-sucesso-titulo">
+    <h2 id="modal-sucesso-titulo">Cadastro enviado!</h2>
+    <p>Obrigado, <strong id="modal-nome">voluntário(a)</strong>! Recebemos seus dados e entraremos em contato em breve.</p>
+    <form method="dialog" class="modal-acoes">
+      <button type="submit" class="btn">Fechar</button>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- Biblioteca externa (CDN): Chart.js 4.5.1 fixada por versão e verificada por integridade (SRI) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.5.1/dist/chart.umd.js"
+          integrity="sha384-hfkuqrKeWFmnTMWN31VWyoe8xgdTADD11kgxmdpx2uyE6j5Az5uZq6u6AKYYmAOw"
+          crossorigin="anonymous"></script>
+  <!-- Scripts clássicos, na ordem de dependência (funcionam abrindo o arquivo direto) -->
+  <script src="../js/modules/dados.js"></script>
+  <script src="../js/modules/templates.js"></script>
+  <script src="../js/modules/storage.js"></script>
+  <script src="../js/modules/feedback.js"></script>
+  <script src="../js/modules/mascaras.js"></script>
+  <script src="../js/modules/formulario.js"></script>
+  <script src="../js/modules/grafico.js"></script>
+  <script src="../js/modules/cadastros.js"></script>
+  <script src="../js/modules/menu.js"></script>
+  <script src="../js/modules/router.js"></script>
+  <script src="../js/main.js"></script>
+</body>
+</html>
