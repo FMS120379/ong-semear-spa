@@ -28,7 +28,7 @@
     return `
       <article class="project grid-12" aria-labelledby="proj-${p.id}">
         <figure class="col-md-4">
-          <img src="${IMAGENS}${p.imagem}" alt="${p.alt}" width="320" height="200">
+          <img src="${IMAGENS}${p.imagem}" alt="${p.alt}" width="320" height="200" loading="lazy" decoding="async">
           <figcaption>${p.legenda}</figcaption>
         </figure>
         <div class="col-md-8">
@@ -72,7 +72,7 @@
         <section class="container section" aria-labelledby="titulo-sobre">
           <h2 id="titulo-sobre">Quem somos</h2>
           <p>A ONG Semear é uma organização sem fins lucrativos que une voluntários e doadores para levar alimento, reforço escolar e formação profissional a quem mais precisa.</p>
-          <img src="${IMAGENS}equipe-voluntarios.svg" alt="Voluntários da ONG Semear preparando refeições na cozinha solidária" width="600" height="400">
+          <img src="${IMAGENS}equipe-voluntarios.svg" alt="Voluntários da ONG Semear preparando refeições na cozinha solidária" width="600" height="400" loading="lazy" decoding="async">
           <div class="grid-12">${d.missao.map((i) => cartaoSimples(i, "col-sm-6 col-lg-4")).join("")}</div>
         </section>
 
