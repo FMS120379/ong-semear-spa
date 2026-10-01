@@ -34,7 +34,7 @@ cd ong-semear-spa
 git checkout develop   # ou main para a versão estável
 ```
 
-Não há dependências a instalar. Para executar:
+Para desenvolver, não há dependências a instalar. Para executar:
 
 ```bash
 # opção 1: abrir html/index.html direto no navegador
@@ -43,6 +43,16 @@ python3 -m http.server 8000
 # acessar http://localhost:8000/html/index.html
 ```
 
+## Build de produção
+
+```bash
+npm install     # esbuild, html-minifier-terser e svgo (apenas desenvolvimento)
+npm run build   # gera a pasta dist/
+npm run preview # serve dist/ em http://localhost:8080
+```
+
+O build junta e minifica o JavaScript (esbuild), junta e minifica o CSS, minifica o HTML e otimiza os SVG (svgo). A pasta `dist/` não é versionada.
+
 ## Estrutura de diretórios
 
 ```
@@ -50,6 +60,8 @@ ong-semear-spa/
 ├── css/            reset.css e style.css (design system)
 ├── html/           index.html (shell da SPA)
 ├── imagens/        ilustrações SVG
+├── build.mjs       script de build (gera dist/)
+├── package.json    scripts e dependências de desenvolvimento
 └── js/
     ├── main.js     ponto de entrada
     └── modules/    dados, templates, router, formulario, mascaras,
